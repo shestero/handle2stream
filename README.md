@@ -2,8 +2,8 @@
 Demo code: "converting" Windows file HANDLE and C FILE* into C++ i/o stream. _(WinAPI !!)_
 
 This code shows how to 
-1. call a child MS Windows exe process to use it like "server" and intercept its Std{In/Out/Err};
-2. "convert" WinAPI in/out/err HANDLE into C FILE* and then into C++ i/o streams.
+1. call a child MS Windows exe process and intercept its Std{In/Out/Err} (_see winiostream.hpp_);
+2. "convert" WinAPI in/out/err HANDLE into C FILE* and then into C++ i/o streams (_see createproc.hpp_).
 
 ### COMPILE AND RUN:
 ```
